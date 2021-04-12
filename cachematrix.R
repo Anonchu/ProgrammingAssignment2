@@ -3,6 +3,7 @@
 
 ## Write a short comment describing this function
 ## makeCacheMatrix isused for creating a new matrix that is used for caching its inverse.
+makeCacheMatrix isused for creating a new matrix that is used for caching its inverse.
 makeCacheMatrix <- function(x = matrix()){
       a <- NULL
       set <- function(z){
@@ -18,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()){
 
 ## Write a short comment describing this function
 ## This function is used for data cache and for solving the inverse of the matrix from the makeCacheMatrix
+ This function is used for data cache and for solving the inverse of the matrix from the makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
